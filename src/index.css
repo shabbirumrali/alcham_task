@@ -1,13 +1,46 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+button {
+  cursor: pointer;
+  font-size: 1rem;
+  border: none;
+  padding: 8px 20px;
+  outline: none;
+  background: rgba(236, 236, 236, 0.6);
+}
+button:hover {
+  background: rgba(255, 255, 255, 0.6);
+}
+.watch_container {
+  width: 100vw;
+  height: 100vh;
+  background: #663399;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.watch_working {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.watch_timmer {
+  margin: 10px 0;
+}
+.watch_timmer span {
+  font-size: 5rem;
+}
+.watch_button_container button {
+  margin: 0 20px;
+  border: none;
+  outline: none;
+  padding: 10px 15px;
+}
+.container h4 {
+  text-align: center;
+  color: brown;
 }
